@@ -282,7 +282,7 @@ Een **Ethernet switch** werkt daarentegen in **volledige duplex** mode, wat bete
 - CSMA/CD is effectief bij lage netwerkbelasting, maar wanneer veel apparaten tegelijk proberen te zenden, kunnen botsingen frequent optreden, wat de prestaties van het netwerk vermindert.
 >>>>>>> 56d160a (testtest)
 
-test
+
 
 
  
