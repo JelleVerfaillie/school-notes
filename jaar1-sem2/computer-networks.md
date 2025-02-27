@@ -49,6 +49,20 @@
 
 Deze protocollen vormen de basis van computernetwerken en internetcommunicatie.
 
-##
+## Data link layer
+
+ 
+ - Zorgt voor communicatie tussen end-device network interface cards.
+
+-  Heeft 2 sublagen logical link control (llc) en media acces conntrol(mac)
+
+- llc communiceert
+
+- ARP bepaalt mac adress
+
+
+
+ 
+
 
 
