@@ -60,7 +60,11 @@ Deze protocollen vormen de basis van computernetwerken en internetcommunicatie.
 
 - ARP bepaalt mac adress
 
+<<<<<<< HEAD
 - network interface card doet aan frame filtering om frames die niet voor jou bestemd zijn te filteren om alleen de frames die jij wilt te houden aan de hand van mac adress
+=======
+-**network interface card** doet aan **frame filtering** om frames die niet voor jou bestemd zijn te filteren om alleen de frames die jij wilt te houden aan de hand van **mac adress** .
+>>>>>>> 56d160a (testtest)
 
 ### Waarom op n.i.c en niet op processor? 
 - om onnodige belasting te voorkomen
@@ -232,6 +236,51 @@ Bij een **Hub-and-Spoke**-topologie zijn meerdere locaties (**spokes**) verbonde
 
     
 
+<<<<<<< HEAD
+=======
+## Ethernet Hub
+
+Een **Ethernet hub** is een netwerkapparaat dat meerdere apparaten in een lokaal netwerk (LAN) verbindt. Het ontvangt gegevens van één apparaat en **zendt deze naar alle andere apparaten** in het netwerk, ongeacht of ze de gegevens nodig hebben.
+
+### Nadelen:
+- **Beperkte bandbreedte(traag)**: Alle apparaten delen dezelfde bandbreedte, wat kan leiden tot vertragingen.
+- **Geen intelligentie**: Het verstuurt gegevens naar alle apparaten, wat minder efficiënt is dan modernere apparaten zoals switches.
+
+### Conclusie
+
+Het is beter om een **Ethernet switch** te gebruiken in plaats van een hub, omdat **Ethernet hubs werken in half-duplex mode**, wat betekent dat gegevens slechts in één richting tegelijk kunnen worden verzonden. Dit kan leiden tot vertragingen en netwerkverkeer botsingen. 
+
+Een **Ethernet switch** werkt daarentegen in **volledige duplex** mode, wat betekent dat gegevens gelijktijdig in beide richtingen kunnen stromen, wat de netwerkprestaties verbetert. Daarnaast is een switch **intelligenter**, omdat hij alleen gegevens naar het juiste apparaat stuurt, in plaats van naar alle apparaten in het netwerk zoals een hub.
+
+## Half en full duplex
+
+- Full duplex heeft geen collisions
+- half duplex heeft maar 1 communicatie kanaal voor het versturen
+- half duplex = wel collisions
+- half duplex komt voor in **wireless kanaal** , **oude UTP kabels**
+
+**hoe oplossen dat half duplex geen collisions heeft ?**
+
+- Via carrier sense . 
+### Carrier Sense Multiple Access with Collision Detection (CSMA/CD)
+
+**CSMA/CD** is een protocol dat wordt gebruikt in **half-duplex Ethernet** netwerken om **botsingen** te detecteren en te vermijden. Het werkt als volgt:
+
+1. **Carrier Sense**: 
+   - Elk apparaat luistert eerst naar het netwerk om te controleren of de lijn vrij is voordat het begint te zenden. 
+   - Als het kanaal bezet is, wacht het apparaat totdat het vrij is voordat het data verzendt.
+
+2. **Collision Detection**: 
+   - Als twee apparaten tegelijkertijd beginnen te zenden, detecteren ze de botsing door de verstoring van het signaal.
+   - Wanneer een botsing wordt gedetecteerd, stoppen de apparaten met zenden en wachten een willekeurige tijd voordat ze opnieuw proberen te verzenden.
+
+   #### Collision detecting process
+
+   - 
+
+**Beperkingen**:
+- CSMA/CD is effectief bij lage netwerkbelasting, maar wanneer veel apparaten tegelijk proberen te zenden, kunnen botsingen frequent optreden, wat de prestaties van het netwerk vermindert.
+>>>>>>> 56d160a (testtest)
 
 
 
