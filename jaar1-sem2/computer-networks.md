@@ -60,11 +60,7 @@ Deze protocollen vormen de basis van computernetwerken en internetcommunicatie.
 
 - ARP bepaalt mac adress
 
-<<<<<<< HEAD
-- network interface card doet aan frame filtering om frames die niet voor jou bestemd zijn te filteren om alleen de frames die jij wilt te houden aan de hand van mac adress
-=======
 -**network interface card** doet aan **frame filtering** om frames die niet voor jou bestemd zijn te filteren om alleen de frames die jij wilt te houden aan de hand van **mac adress** .
->>>>>>> 56d160a (testtest)
 
 ### Waarom op n.i.c en niet op processor? 
 - om onnodige belasting te voorkomen
@@ -236,8 +232,6 @@ Bij een **Hub-and-Spoke**-topologie zijn meerdere locaties (**spokes**) verbonde
 
     
 
-<<<<<<< HEAD
-=======
 ## Ethernet Hub
 
 Een **Ethernet hub** is een netwerkapparaat dat meerdere apparaten in een lokaal netwerk (LAN) verbindt. Het ontvangt gegevens van één apparaat en **zendt deze naar alle andere apparaten** in het netwerk, ongeacht of ze de gegevens nodig hebben.
@@ -279,8 +273,7 @@ Een **Ethernet switch** werkt daarentegen in **volledige duplex** mode, wat bete
    - 
 
 **Beperkingen**:
-- CSMA/CD is effectief bij lage netwerkbelasting, maar wanneer veel apparaten tegelijk proberen te zenden, kunnen botsingen frequent optreden, wat de prestaties van het netwerk vermindert.
->>>>>>> 56d160a (testtest)
+- CSMA/CD is effectief bij lage netwerkbelasting, maar wanneer veel apparaten tegelijk proberen te zenden, kunnen botsingen frequent optreden, wat de prestaties van het netwerk vermindert. 
 
 
 
