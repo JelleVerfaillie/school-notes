@@ -276,6 +276,18 @@ Een **Ethernet switch** werkt daarentegen in **volledige duplex** mode, wat bete
 - CSMA/CD is effectief bij lage netwerkbelasting, maar wanneer veel apparaten tegelijk proberen te zenden, kunnen botsingen frequent optreden, wat de prestaties van het netwerk vermindert. 
 
 
+## OSI model
+
+- OSI model is het enige model dat je nummert
+
+## to do belangrijk !! 
+
+-  **mac adressen**
+-  **switches**
+-  **protocollen**
+-  **lagen structuur netwerken**
+
+
 
 
  
