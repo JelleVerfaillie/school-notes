@@ -285,7 +285,8 @@ Een **Ethernet switch** werkt daarentegen in **volledige duplex** mode, wat bete
 -  **mac adressen**
 -  **switches**
 -  **protocollen**
--  **lagen structuur netwerken**
+-  **lagen structuur , kleuren , netwerken bij versturingsprocess**
+
 
 
 
